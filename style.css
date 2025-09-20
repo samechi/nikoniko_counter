@@ -1,0 +1,71 @@
+body {
+    /* 背景色をグラデーションに */
+    background: linear-gradient(135deg, #fceabb, #f8b500);
+    font-family: 'Comic Sans MS', 'ヒラギノ丸ゴ ProN W4', sans-serif; /* 可愛らしいフォントに変更 */
+    color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明の白背景 */
+    padding: 40px 60px;
+    border-radius: 20px; /* 角を大きく丸く */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* 影を追加 */
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: #d84315; /* 少し濃いめの赤 */
+    margin-bottom: 20px;
+}
+
+#counter {
+    font-size: 120px; /* カウント数を大きく表示 */
+    font-weight: bold;
+    color: #e57373; /* 可愛らしいピンク系の色 */
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* 文字に影を追加 */
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* ボタン間の間隔 */
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px; /* ボタンを丸くする */
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    transform: translateY(-3px); /* ホバーで少し浮き上がるアニメーション */
+}
+
+#increment-btn {
+    background-color: #64dd17; /* 緑系の色 */
+    color: white;
+}
+
+#decrement-btn {
+    background-color: #ff5252; /* 赤系の色 */
+    color: white;
+}
+
+#reset-btn {
+    background-color: #ffa726; /* オレンジ系の色 */
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+}
